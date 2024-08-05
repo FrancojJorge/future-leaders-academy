@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Leaders Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Future Leaders Academy">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre o Programa</a></li>
+                    <li><a href="#programs">Programas e Eventos</a></li>
+                    <li><a href="#partners">Parcerias</a></li>
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#testimonials">Testemunhos</a></li>
+                    <li><a href="#apply">Inscrição</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Future Leaders Academy</h1>
+            <p>Transformando Estudantes em Líderes Globais</p>
+            <a href="#about" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>O que é a Future Leaders Academy?</h2>
+            <p>A Future Leaders Academy oferece imersões educacionais internacionais que complementam cada série escolar com cursos de curta duração focados em liderança, sustentabilidade, indústria criativa e empreendedorismo.</p>
+        </div>
+    </section>
+
+    <section id="programs">
+        <div class="container">
+            <h2>Nossos Programas e Eventos</h2>
+            <div class="program">
+                <h3>9º Ano na Flórida</h3>
+                <p>Aulas na Disney, visita à NASA e certificado da Full Sail.</p>
+            </div>
+            <div class="program">
+                <h3>1ª Série do Ensino Médio em Vancouver</h3>
+                <p>Certificado da University of British Columbia (UBC).</p>
+            </div>
+            <div class="program">
+                <h3>2ª Série do Ensino Médio em San Diego</h3>
+                <p>Certificado da University of California, San Diego (UCSD).</p>
+            </div>
+            <div class="program">
+                <h3>3ª Série do Ensino Médio em Singapura</h3>
+                <p>Certificado da National University of Singapore (NUS).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <div class="container">
+            <h2>Parcerias com Universidades de Renome</h2>
+            <p>As escolas podem orgulhosamente informar aos pais que possuem parcerias com algumas das melhores universidades do mundo, oferecendo experiências educativas únicas para cada série.</p>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="container">
+            <h2>Benefícios Educacionais</h2>
+            <ul>
+                <li>Desenvolvimento de Soft Skills: Foco em habilidades essenciais como liderança, trabalho em equipe e pensamento crítico.</li>
+                <li>Experiência Internacional: Exposição a diversas culturas e aprimoramento de habilidades linguísticas.</li>
+                <li>Certificação Reconhecida: Valorização do currículo dos estudantes com certificados de instituições renomadas mundialmente.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>O que Nossos Estudantes Dizem</h2>
+            <p>Depoimentos de ex-alunos e pais.</p>
+        </div>
+    </section>
+
+    <section id="apply">
+        <div class="container">
+            <h2>Inscreva-se na Future Leaders Academy</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="program">Programa:</label>
+                <select id="program" name="program">
+                    <option value="florida">9º Ano na Flórida</option>
+                    <option value="vancouver">1ª Série do Ensino Médio em Vancouver</option>
+                    <option value="sandiego">2ª Série do Ensino Médio em San Diego</option>
+                    <option value="singapore">3ª Série do Ensino Médio em Singapura</option>
+                </select>
+                <button type="submit">Inscreva-se Agora</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <form>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Future Leaders Academy. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
